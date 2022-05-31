@@ -1,0 +1,5 @@
+sudo apt-get update -y
+sudo apt install screen -y
+wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.29/lolMiner_v1.29_Lin64.tar.gz
+tar -xf lolMiner_v1.29_Lin64.tar.gz
+cd 1.29 && ./lolMiner lolMiner.exe --algo ETCHASH --pool asia-etc.2miners.com:1010 --user 0x833738aa7df15d3807fbe4608444b0d6543b0d90.jon3
